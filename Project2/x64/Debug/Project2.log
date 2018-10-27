@@ -1,0 +1,66 @@
+﻿  Mesh.cpp
+  Mesh2.cpp
+c:\users\theo\source\repos\project2\project2\src\buffer\mesh2.cpp(37): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model.cpp
+  Texture.cpp
+  Camera.cpp
+  Renderer.cpp
+  Source.cpp
+  Window.cpp
+  EntityManager.cpp
+  BaseProgram.cpp
+  ShaderProgram.cpp
+  TerrainShader.cpp
+  glm.cpp
+  stb.cpp
+  Generating Code...
+Mesh.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+Mesh2.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __glewBufferData
+Mesh2.obj : error LNK2001: unresolved external symbol __glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+Mesh2.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __glewDisableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+Mesh2.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+Mesh2.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+Mesh2.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+Mesh2.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+Mesh2.obj : error LNK2001: unresolved external symbol __glewActiveTexture
+Texture.obj : error LNK2001: unresolved external symbol __glewActiveTexture
+Mesh2.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+Mesh2.obj : error LNK2001: unresolved external symbol __glewUniform1f
+Mesh2.obj : error LNK2001: unresolved external symbol __glewUniform1i
+Source.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Window.obj : error LNK2001: unresolved external symbol glfwTerminate
+Source.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+Window.obj : error LNK2019: unresolved external symbol glewInit referenced in function "public: __cdecl Window::Window(int const &,int const &)" (??0Window@@QEAA@AEBH0@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "public: __cdecl Window::Window(int const &,int const &)" (??0Window@@QEAA@AEBH0@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "public: __cdecl Window::Window(int const &,int const &)" (??0Window@@QEAA@AEBH0@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "public: __cdecl Window::Window(int const &,int const &)" (??0Window@@QEAA@AEBH0@Z)
+Window.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "public: __cdecl Window::Window(int const &,int const &)" (??0Window@@QEAA@AEBH0@Z)
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewAttachShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewCompileShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewCreateShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewShaderSource
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewUniform3f
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewUseProgram
+ShaderProgram.obj : error LNK2001: unresolved external symbol __glewValidateProgram
+C:\Users\Theo\source\repos\Project2\dep\lib\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Theo\source\repos\Project2\dep\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Theo\source\repos\Project2\x64\Debug\Project2.exe : fatal error LNK1120: 37 unresolved externals
